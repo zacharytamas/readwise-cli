@@ -1,11 +1,18 @@
 {
   "name": "readwise-cli",
+  "version": "0.1.0",
   "module": "src/index.ts",
   "type": "module",
+  "bin": {
+    "readwise": "src/index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "cac": "^6.7.14"
   }
 }
